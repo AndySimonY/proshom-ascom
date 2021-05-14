@@ -62,8 +62,6 @@ export const productDetailsReducers = (state = {product:{reviews:[]}}, action) =
 
         case PRODUCT_DETAILS_FAIL:
             return{loading:false, error:action.payload}
-        
-        
         default:
             return state
     }
