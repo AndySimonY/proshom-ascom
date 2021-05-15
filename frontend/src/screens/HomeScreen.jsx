@@ -34,7 +34,7 @@ const HomeScreen = ({history}) => {
                 <div>
                 <Row>
                     {products.map((product =>(
-                        <Col key={product._id} sm={12} md={6} ld={4} xl={3}>
+                        <Col key={product._id} sm={12} md={6} ld={4} xl={3} className='d-flex align-items-stretch'>
                             <Product product={product}/>
                         </Col>
                             )))}
